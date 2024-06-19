@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  
+}
+
+header{
+  height: 100px;
+  background-color: black;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+header > h1{
+  text-align: center;
+  padding-top: 50px;
+}
+
+header > p{
+  text-align: center;
+}
+
+header > p > a{
+  text-decoration: none;
+  color: #fff;
+}
+
+header > p > a:hover{
+  text-decoration: underline;
+}
+
+.normal{
+  border: 1px solid black;
+}

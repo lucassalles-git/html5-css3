@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+  font-family: 'Arial', Helvetica, Sans-Serif;
+  font-size: 1em;
+}
+h1{
+  font: italic bolder 3em 'Arial', Sans-Serif;
+}
+h2{
+  font: bold 2em 'Arial', Sans-Serif;
+}

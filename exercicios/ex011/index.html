@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias em HTML</title>
+</head>
+<body>
+  <h1>Imagem Dinâmica</h1>
+  
+  <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+  
+  <picture>
+    
+    <source media="(max-width: 450px)" srcset="imagem-p.jpg">
+    
+    <source media="(max-width: 550px)" srcset="p2.jpg" type="image/jpg">
+    
+    <source media="(max-width: 650px)" srcset="p3.jpg" type="image/jpg">
+    
+    <source media="(max-width: 750px)" srcset="p4.jpg" type="image/jpg">
+    
+    <source media="(max-width: 850px)" srcset="imagem-m.jpg">
+    
+    <source media="(max-width: 950px)" srcset="m2.jpg" type="image/jpg">
+    
+    <source media="(max-width: 1050px)" srcset="m3.jpg" type="image/jpg">
+    
+    <img src="imagem-g.jpg" alt="Imagem Flexível">
+  </picture>
+  
+  <h1>Reproduzindo áudio</h1>
+  
+  <p>Vamos aprender a reproduzir áudios em HTML</p>
+  
+  <audio preload="metadata" autoplay controls loop>
+    <source src="midia/ressuscita-me.mp3" type="audio/mpeg">
+    
+    <source src="midia/ressuscita-me.ogg" type="audio/ogg">
+    
+    <source src="midia/ressuscita-me.m4a" type="audio/aac">
+    
+    <p>Infelizmente seu navegador não consegue reproduzir áudio.  
+    <a href="midia/ressuscita-me.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </p>
+  </audio>
+  
+</body>
+</html>
