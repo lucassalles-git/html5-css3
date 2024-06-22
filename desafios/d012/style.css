@@ -5,35 +5,67 @@
   padding: 0px;
 }
 
-body{
+html, body{
+  min-height: 100vh;
+  background-color: darkgrey;
   
 }
 
 header{
-  height: 100px;
   background-color: black;
   color: #fff;
-  padding-bottom: 50px;
+  text-align: center;
+  
 }
 
 header > h1{
-  text-align: center;
+  
   padding-top: 50px;
+  font-variant: small-caps;
+
 }
 
 header > p{
-  text-align: center;
+  padding-bottom: 50px;
 }
 
-header > p > a{
+header a, footer a{
   text-decoration: none;
   color: #fff;
+  font-weight: bolder;
 }
 
-header > p > a:hover{
+header a:hover, footer a:hover{
   text-decoration: underline;
 }
 
-.normal{
-  border: 1px solid black;
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
 }
+
+section.normal{
+  background-color: #fff;
+  color: black;
+
+}
+
+section.imagem{
+  background-color: rgb(51, 51, 51);
+  color: #fff;
+}
+
+section.imagem > p{
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
